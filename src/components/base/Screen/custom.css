@@ -1,5 +1,14 @@
 .screen {
-    background-color: #FFFFFF;
-    color: #393F40;
-    width: 100%;
+    margin: auto;
+    width: 80%;
+}
+
+.screen.a, .screen.a:active {
+    color: #111;
+}
+
+@media (max-width: 750px) {
+    .screen {
+        width: 90%;
+    }
 }

@@ -7,3 +7,15 @@ body,html {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+a,
+a:link,
+a:active,
+a:visited {
+    color: #40A2BF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #407dbf;
+}
